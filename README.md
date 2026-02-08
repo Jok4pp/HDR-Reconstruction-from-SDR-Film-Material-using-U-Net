@@ -15,7 +15,7 @@ It follows an encoder–decoder structure that progressively compresses and reco
 Training is performed using paired SDR and HDR frames, enabling supervised learning of the inverse tone mapping process and facilitating accurate reconstruction of both luminance and color information.
 
 <p align="center">
-  <img src="assets/U-Net-Structure.png" width="700"/>
+  <img src="assets/U-Net-Structure.png" width="1000"/>
 </p>
 
 
