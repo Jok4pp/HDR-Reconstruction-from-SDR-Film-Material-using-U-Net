@@ -1,11 +1,8 @@
 # HDR Reconstruction from SDR Film Material using U-Net
 
 This project investigates the impact of a so-called native dataset on the performance of a U-Net-based architecture for Inverse Tone Mapping (SDR → HDR) in film material.
-
 The main goal is to integrate human color grading decisions into the training process by using paired SDR and HDR versions of real movies instead of synthetically generated data.
-
-Unlike common approaches, the SDR data in this project is not generated algorithmically from HDR data via Tone Mapping.  
-Instead, it is extracted from commercially available SDR and HDR film versions, resulting in a native dataset that better reflects real production pipelines.
+Unlike common approaches, the SDR data in this project is not generated algorithmically from HDR data via Tone Mapping. Instead, it is extracted from commercially available SDR and HDR film versions, resulting in a native dataset that better reflects real production pipelines.
 
 ## Model Architecture
 
