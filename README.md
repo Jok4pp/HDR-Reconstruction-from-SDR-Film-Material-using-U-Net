@@ -1,6 +1,6 @@
-### HDR Reconstruction from SDR Film Material using U-Net
+# HDR Reconstruction from SDR Film Material using U-Net
 
-This project investigates the impact of native dataset on the performance of a U-Net-based architecture for Inverse Tone Mapping (SDR → HDR) in film material.
+This project investigates the impact of a so-called native dataset on the performance of a U-Net-based architecture for Inverse Tone Mapping (SDR → HDR) in film material.
 
 The main goal is to integrate human color grading decisions into the training process by using paired SDR and HDR versions of real movies instead of synthetically generated data.
 
@@ -24,7 +24,7 @@ Training is performed using paired SDR and HDR frames, enabling supervised learn
 Several loss functions were evaluated during preliminary experiments:
 
 - Mean Squared Error (MSE)
-- Structural Similarity Index (SSIM)
+- Structural Similarity Index (SSIM) [1]
 
 SSIM was selected as the final loss function due to its superior performance.
 
@@ -74,9 +74,9 @@ Evaluation was performed using the image quality metric HDR-VDP-3 which was spec
 | Dataset Type | Mean HDR-VDP |
 |--------------|--------------|
 | Native       | 7.98         |
-| Reinhard TMO | 7.74         |
-| Habel TMO    | 7.01         |
-| Möbius TMO   | 7.89         |
+| Reinhard TMO [2] | 7.74         |
+| Habel TMO [3]   | 7.01         |
+| Möbius TMO [4] | 7.89         |
 
 The native dataset achieved the highest average score.
 
@@ -96,7 +96,7 @@ Potential extensions include:
 
 ---
 
-## Structure
+## References
 
-The processing pipeline used for training and testing the models can be found under "U-Net ITM Workflow". Additional image processing functions can be found under "U-Net ITM Workflow/utils". Due to copyrighting issues the used dataset cannot be shared in this repository.
+Due to copyrighting issues the used dataset cannot be shared in this repository.
 
