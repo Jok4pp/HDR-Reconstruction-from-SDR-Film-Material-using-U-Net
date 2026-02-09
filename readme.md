@@ -96,6 +96,11 @@ Potential extensions include:
 
 [3] Haarm-Pieter Duiker. *Filmic Tonemapping for Real-time Rendering*. Siggraph 2010 Color Course, Siggraph, Online, 2010. URL: [Link](http://duikerresearch.com/2015/09/filmic-tonemapping-for-real-time-rendering/)
 
+## Collaborators
+Jonas Janzen
+Marcel Gress
+Lea Buse
+
 ---
 
 Due to copyrighting issues the used dataset cannot be shared in this repository.
